@@ -1,0 +1,77 @@
+.principal {
+    width: 50vw;
+    margin: 5em auto 6em auto;
+}
+
+.principal__titulo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--laranja)
+}
+
+.principal__subtitulo {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    color: var(--azul);
+    margin: 3em 0 2em 0;
+}
+
+.campo__etiqueta {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--azul);
+    margin-left: 1em;
+}
+
+.campo__escrita {
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.formulario__campo {
+    margin: .6em 3em .6em 0;
+
+}
+
+.formulario__dupla {
+    display: flex;
+}
+
+.formulario__botao {
+    background: var(--laranja);
+    padding: 1em 4em;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    color: var(--branco);
+    cursor: pointer;
+    float: right;
+}
+
+.formulario__erro {
+    display: flex;
+    margin-top: .5em;
+    align-items: center;
+}
+
+.erro__imagem {
+    width: 16px;
+    height: 16px;
+    margin: 0 .5em;
+    background-image: url('../img/warning.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.erro__texto {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--vermelho);
+}

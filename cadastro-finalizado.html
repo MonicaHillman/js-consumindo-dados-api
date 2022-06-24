@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Formulário de cadastro</title>
+</head>
+
+<body>
+
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+            <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__titulo">Cadastro finalizado</h2>
+    </section>
+
+    <main class="principal cadastro">
+        <h2 class="principal__titulo">Sucesso!</h2>
+        <h3 class="principal__subtitulo cadastro__subtitulo">Você finalizou seu cadastro!</h3>
+        <p class="principal__texto">Caso deseje editar informações ou atualizá-las no futuro, é só acessar a página de
+            perfil!</p>
+        <img src="./img/Encerramento-compra---Alura-Books_1.png" alt="Ficha de cadastro completada"
+            class="cadastro__imagem">
+    </main>
+
+    <hr>
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">Grupo Alura</h2>
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Educação</li>
+            <li class="lista-rodapé__item">
+                <img src="img/CasaDoCodigo.svg" alt="Logo da casa do código">
+                <a href="#" class="lista-rodapé__link">Casa do código</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/Caelum.svg" alt="Logo da caelum">
+                <a href="#" class="lista-rodapé__link">Caelum</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Educação online</li>
+            <li class="lista-rodapé__item">
+                <img src="img/Alura.svg" alt="Logo da Alura">
+                <a href="#" class="lista-rodapé__link">Alura</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/AluraEmpresas.svg" alt="Logo da Alura para Empresas">
+                <a href="#" class="lista-rodapé__link">Alura para Empresas</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/AluraLATAM.svg" alt="Logo da Alura Latam">
+                <a href="#" class="lista-rodapé__link">Alura LATAM</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/AluraStart.svg" alt="Logo da Alura START">
+                <a href="#" class="lista-rodapé__link">Alura Start</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/MusicDot.svg" alt="Logo da Music Dot">
+                <a href="#" class="lista-rodapé__link">Music Dot</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/AluraLingua.svg" alt="Logo da Alura Lingua">
+                <a href="#" class="lista-rodapé__link">Alura Lingua</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/PM3.svg" alt="Logo da PM3">
+                <a href="#" class="lista-rodapé__link">PM3</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Comunidade</li>
+            <li class="lista-rodapé__item">
+                <img src="img/HipstersTech.svg" alt="Logo do Hipsters ponto Tech">
+                <a href="#" class="lista-rodapé__link">Hipsters ponto Tech</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/ScubaDev.svg" alt="Logo do Scuba Dev">
+                <a href="#" class="lista-rodapé__link">Scuba Dev</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/LayersTech.svg" alt="Logo do Layers ponto Tech">
+                <a href="#" class="lista-rodapé__link">Layers ponto Tech</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/LikeABoss.svg" alt="Logo do Like a Boss">
+                <a href="#" class="lista-rodapé__link">Like a Boss</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/CarreiraSemFronteira.svg" alt="Logo do Carreira sem fronteiras">
+                <a href="#" class="lista-rodapé__link">Carreira sem fronteiras</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/HipstersJobs.svg" alt="Logo do Hipsters ponto jobs">
+                <a href="#" class="lista-rodapé__link">Hipsters ponto jobs</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/GUJ.svg" alt="Logo do GUJ">
+                <a href="#" class="lista-rodapé__link">GUJ</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
